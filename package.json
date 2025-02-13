@@ -26,13 +26,13 @@
     "tsc": "tsc --noEmit"
   },
   "license": "MIT",
-  "homepage": "https://github.com/tvhampton/react-19-telephone#readme",
+  "homepage": "https://github.com/tvarzeas/react-19-telephone#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tvhampton/react-19-telephone.git"
+    "url": "https://github.com/tvarzeas/react-19-telephone.git"
   },
   "bugs": {
-    "url": "https://github.com/tvhampton/react-19-telephone/issues"
+    "url": "https://github.com/tvarzeas/react-19-telephone/issues"
   },
   "keywords": [
     "phone",
@@ -47,6 +47,11 @@
     "dist",
     "src"
   ],
+  "author": {
+    "name": "Joris",
+    "email": "me@joris.re",
+    "url": "https://joris.re"
+  },
   "peerDependencies": {
     "react": "^16 || ^17 || ^18 || ^19",
     "react-dom": "^16 || ^17 || ^18 || ^19"

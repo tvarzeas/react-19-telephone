@@ -9,9 +9,12 @@
   </a>
 </p>
 <br />
-<div align="center"><strong>☎️ react-telephone</strong></div>
+<div align="center"><strong>☎️ react-19-telephone</strong></div>
 <p align="center">
 Tiniest react input phone component (auto formating included)
+</p>
+<p align="center">
+This forked version of <a src="https://github.com/jorisre/react-telephone">react-telephone</a> is compatible with projects using React 19. 
 </p>
 
 <br />
