@@ -1,20 +1,20 @@
 {
-  "name": "react-telephone",
-  "description": "☎️ Tiniest react input phone component (auto formating included)",
-  "version": "0.0.0",
+  "name": "react-19-telephone",
+  "description": "☎️ Tiniest react input phone component (auto formating included) - React 19 support",
+  "version": "1.0.0",
   "type": "module",
   "source": "./src/index.tsx",
-  "main": "./dist/react-telephone.cjs",
-  "module": "./dist/react-telephone.module.js",
+  "main": "./dist/react-19-telephone.cjs",
+  "module": "./dist/react-19-telephone.module.js",
   "types": "./dist/index.d.ts",
   "exports": {
     "./package.json": "./package.json",
     ".": {
       "types": "./dist/index.d.ts",
-      "browser": "./dist/react-telephone.module.js",
-      "umd": "./dist/react-telephone.umd.js",
-      "import": "./dist/react-telephone.mjs",
-      "require": "./dist/react-telephone.cjs"
+      "browser": "./dist/react-19-telephone.module.js",
+      "umd": "./dist/react-19-telephone.umd.js",
+      "import": "./dist/react-19-telephone.mjs",
+      "require": "./dist/react-19-telephone.cjs"
     }
   },
   "scripts": {
@@ -26,13 +26,13 @@
     "tsc": "tsc --noEmit"
   },
   "license": "MIT",
-  "homepage": "https://github.com/jorisre/react-telephone#readme",
+  "homepage": "https://github.com/tvhampton/react-19-telephone#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jorisre/react-telephone.git"
+    "url": "https://github.com/tvhampton/react-19-telephone.git"
   },
   "bugs": {
-    "url": "https://github.com/jorisre/react-telephone/issues"
+    "url": "https://github.com/tvhampton/react-19-telephone/issues"
   },
   "keywords": [
     "phone",
@@ -47,18 +47,13 @@
     "dist",
     "src"
   ],
-  "author": {
-    "name": "Joris",
-    "email": "me@joris.re",
-    "url": "https://joris.re"
-  },
   "peerDependencies": {
-    "react": "^16 || ^17 || ^18",
-    "react-dom": "^16 || ^17 || ^18"
+    "react": "^16 || ^17 || ^18 || ^19",
+    "react-dom": "^16 || ^17 || ^18 || ^19"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^14.0.0",
+    "@testing-library/react": "^16.2.0",
     "@testing-library/user-event": "^14.5.1",
     "@types/node": "^20.8.0",
     "@types/react": "^18.2.24",
@@ -75,8 +70,8 @@
     "lint-staged": "^14.0.1",
     "microbundle": "^0.15.1",
     "prettier": "^3.0.3",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
     "typescript": "^5.2.2",
     "vite": "^4.4.9",
     "vitest": "^0.34.6"
