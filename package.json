@@ -1,7 +1,7 @@
 {
   "name": "react-19-telephone",
   "description": "☎️ Tiniest react input phone component (auto formating included) - React 19 support",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "source": "./src/index.tsx",
   "main": "./dist/react-19-telephone.cjs",
